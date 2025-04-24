@@ -1,3 +1,122 @@
 ---
-title: "Setting up Github"
+title: "Build Your Portfolio: Connect RStudio & VS Code to GitHub (Part 1)"
+description: |
+  This guide walks you through connecting your GitHub account to your favorite coding tool.
+  You’ll learn how to open, edit, and save your files like a pro—without ever emailing a ZIP file again.
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    theme: cosmo
 ---
+
+## 🧭 What’s This For?
+
+By now, you’ve made a GitHub account, installed Git, and learned the basics.  
+Now it’s time to **link GitHub to your computer** so you can build and push your portfolio.
+
+You have two great tools to choose from:
+
+- **RStudio** — great for R and Quarto work  
+- **Visual Studio Code (VS Code)** — flexible and great for coding in any language
+
+You’ll only need to follow one path, but we’ll show both.
+
+---
+
+## 🛠 Option A — RStudio + GitHub (Recommended for R users)
+
+> This path is ideal if you're planning to build your portfolio with R, RMarkdown, or Quarto.
+
+### Step 1: Open RStudio
+
+1. Click on the RStudio icon (blue circle with an R).  
+2. If you’ve never opened it before, give it a second to load.
+
+### Step 2: Check Git Setup
+
+1. Click **Tools ➜ Global Options ➜ Git/SVN** (or **Version Control** in newer versions).
+2. If Git is installed, you’ll see something like:
+   ```
+   Git executable: /usr/bin/git  ✅
+   ```
+   If it says **not found**, go back to the Install Git section.
+
+### Step 3: Set Your Name & Email
+
+Still in RStudio:
+- Enter your **GitHub username** as your name (e.g., `brian-data`)
+- Enter your **GitHub email** (the one you used when signing up)
+
+Click **Apply** and then **OK**.
+
+### Step 4: Create a New Project from GitHub
+
+1. Click **File ➜ New Project ➜ Version Control ➜ Git**  
+2. Paste your GitHub repo’s HTTPS link (e.g., `https://github.com/yourname/portfolio`)
+3. Choose a folder on your computer
+4. Click **Create Project**
+
+🎉 You just cloned your repo! You’ll see all your files in the top-right pane.
+
+---
+
+## 🧰 Option B — VS Code + GitHub
+
+> This path is great if you're working with Python, HTML, or just like a flexible editor.
+
+### Step 1: Open VS Code
+
+- Look for the blue square icon with a white angle-bracket `</>`
+
+### Step 2: Install GitHub Extension
+
+1. On the left bar, click the **Extensions icon** (looks like 4 boxes)
+2. Search for **GitHub Pull Requests and Issues**  
+3. Click **Install**
+
+### Step 3: Sign Into GitHub
+
+1. Click the **Accounts icon** in the bottom-left corner (circle with your initials or icon)
+2. Choose **Sign in with GitHub**  
+3. Follow the popup instructions (it’ll open in your browser)
+
+VS Code is now linked to your GitHub account!
+
+### Step 4: Clone a Repo
+
+1. Press <kbd>Ctrl+Shift+P</kbd> (or <kbd>Cmd+Shift+P</kbd> on Mac)
+2. Type: `Git: Clone`
+3. Paste your repo URL (e.g., `https://github.com/yourname/portfolio`)
+4. Choose where to save it
+
+VS Code will ask if you want to open it now—say yes!
+
+---
+
+## 🧪 Checkpoint: Make a Small Change
+
+No matter which tool you used:
+
+1. Open `README.md` or `index.qmd`
+2. Add a sentence like:
+   ```
+   Hello from my new portfolio!
+   ```
+3. Save the file.
+4. In RStudio: go to the **Git tab**, check the file, **Commit** and then **Push**  
+5. In VS Code: click the **Source Control icon**, write a message, click the ✔️ checkmark, then click **Push**
+
+---
+
+## ✅ You’re Connected!
+
+If you got through those steps, your computer and GitHub are officially best friends.  
+From here, you can keep building pages for your site and see them live on the web.
+
+Next stop: ✨ Portfolio Workshop — creating your personal website!
+
+Need help? Post in Canvas → **“GitHub Help” thread** with a screenshot.
+```
+
+Let me know if you'd like to add screenshots, gifs, or embed a video walkthrough!

@@ -1,0 +1,103 @@
+---
+title: "Extra Credit: Build Your Personal Portfolio Website with Quarto + GitHub Pages"
+description: |
+  Turn your GitHub repo into a real website using Quarto and GitHub Pages.
+  This is your first professional portfolio—and it’s worth extra credit.
+format: html
+---
+
+> **Why this matters**  
+> A public portfolio is like your resume's cooler sibling. It lets employers,
+> professors, and peers *see* what you’ve built. And Quarto makes it easier than ever.
+
+---
+
+## Goals
+
+If you complete this assignment, you’ll:
+
+1. Create a live website using Quarto that showcases who you are.  
+2. Deploy your portfolio to **GitHub Pages** with just a few clicks.  
+3. Customize it with sections like **About Me**, **Projects**, **Blog**, and **Resources**.  
+4. Learn how static site generators like Quarto integrate seamlessly with GitHub.
+
+---
+
+## 🛠️ What You’ll Build
+
+A multi-page site built from scratch (using `.qmd` files) with the following:
+
+| Page | Required? | Purpose |
+|------|-----------|---------|
+| `index.qmd` | ✅ | Your homepage – introduce yourself! |
+| `about.qmd` | ✅ | A deeper bio – education, interests, goals. |
+| `projects.qmd` | ✅ | Describe 1–2 things you’ve made or learned. |
+| `blog.qmd` | ❌ | Optional journal or reflection space. |
+| `resources.qmd` | ❌ | Optional list of useful links (books, sites, tools). |
+
+---
+
+## 🧰 Setup Instructions
+
+We’ve created a **Pre-Workshop Setup Guide** for you:
+
+🌐 [Pre-Workshop: Quarto + GitHub Pages](https://github.com/bc-alvarez/quarto-portfolio-setup)
+
+This guide walks you through:
+
+- Installing Git and RStudio (if not done already)
+- Linking GitHub to RStudio with a Personal Access Token
+- Creating a Quarto website project
+- Pushing your site to GitHub
+- Enabling GitHub Pages and going live!
+
+---
+
+## ✅ What to Submit
+
+Submit **one link**:  
+```
+https://<your-username>.github.io/<your-repo-name>/
+```
+
+Example:  
+```
+https://jane-doe.github.io/jane-portfolio/
+```
+
+**Make sure your site has at least:**
+
+- A custom title in `_quarto.yml`  
+- Three pages with meaningful content (`index.qmd`, `about.qmd`, `projects.qmd`)  
+- A working navigation bar between them  
+- Site loads with no 404 errors or broken links
+
+---
+
+## 🏆 Extra Credit Details
+
+| Category | Requirement | Points |
+|----------|-------------|--------|
+| Basic Portfolio | Site is live with 3+ pages & nav bar | +5 |
+| Customized Theme | Changed color, font, or layout in `_quarto.yml` | +2 |
+| Personal Touch | Unique content that shows personality | +3 |
+| Total Extra Credit | — | **+10 points** added to final grade |
+
+---
+
+## 🔒 Deadline
+
+*Optional — due by **Sunday 11:59 PM (Week X)**.*  
+No late submissions accepted. This is bonus-only.
+
+---
+
+## 🧠 Tips
+
+- If something breaks, commit your work often so you can roll back easily.  
+- Look at other Quarto sites (including the TA’s!) for design inspiration.  
+- Want to add your site to your LinkedIn? Now’s the time!
+
+---
+
+You’re now one step closer to a real-world portfolio. Good luck—and have fun building your site! 🚀

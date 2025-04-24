@@ -1,0 +1,76 @@
+---
+title: "GitHub Module – Part 1: Introduction"
+description: "Why version control matters and how we'll learn it in DS 101"
+format: html
+categories: ["DS 101", "GitHub"]
+---
+
+::: {.lead}
+Welcome to **GitHub Week**!  
+
+By the end of this module you will:  
+
+- know what Git *and* GitHub are (and how they differ);  
+- understand why version control is a cornerstone of reproducible data science;  
+- be ready to create, share, and collaborate on code and data projects.
+:::
+
+## Learning Objectives
+
+- **Explain** the purpose of Git and the value of version control in solo and team settings.  
+- **Identify** real‑world use‑cases where GitHub accelerates research, product development, and open science.  
+- **Navigate** the four parts of this module so you can move smoothly from concept ➜ practice ➜ assessment.
+
+## Why GitHub?
+GitHub is more than a place to park code.  
+It’s a social platform where researchers, developers, and data scientists **track changes, review work, and publish results**.  
+Think of it as *Google Docs track‑changes* on steroids—but for everything from R scripts to Quarto websites.
+
+
+> **From Lab Notebook to Global Stage**  
+> Think of GitHub as the modern lab notebook—one that automatically timestamps every line of code, every dataset tweak, and every draft paragraph you write. Because that notebook lives in the cloud, your work is instantly shareable with classmates, instructors, and even the broader research community. Future-you will thank present-you for those clean commit messages when you need to remember *why* you tried a new model, or when you’re re-using this project as the foundation for a capstone or scholarship application.
+
+> **Building Your Digital Footprint Early**  
+> Finally, a public GitHub profile is more than tech résumé padding—it’s proof of growth. Recruiters can scroll through commit history the way a music teacher listens for progress scales. As you move through DS 101 and beyond, each repository becomes a portfolio piece, showcasing not just polished “finals” but the learning process itself. By the end of this module you’ll have your first repo (and maybe even a live Quarto site) to point to when someone asks, “So, what have you built?”  
+
+::: {.callout-note}
+## Fun Fact
+By Friday you’ll have the ability to create your own live portfolio site powered by *GitHub Pages* and *Quarto* (for free!).
+:::
+
+### What’s Inside This Module? — Road Map
+
+| 🔢 Part | 🚀 Focus & Key Activities | 🔓 Unlocks When… |
+|---------|-------------------------|-----------------|
+| **1 – Orientation** | *Why GitHub?*<br>Big-picture intro, success stories, and how the four parts connect. | _Always open_ |
+| **2 – Hands-On Learning** | Guided, click-along tutorial (branches, pull requests, issues) &nbsp;•&nbsp; 2 short readings &nbsp;•&nbsp; **10-question quiz** | _Always open_ |
+| **3 – Portfolio Workshop** | Build and publish a live Quarto site on GitHub Pages—your first public portfolio. | **Quiz score ≥ 80 %** |
+| **4 – Assessments** | **Individual:** create & share a repo<br>**Team:** pull / push workflow with classmates<br>**Extra credit:** enhance your portfolio | **Workshop walkthrough completed** |
+## Prerequisites
+
+- Access to a computer with a reliable internet connection.
+
+Everything else—creating a GitHub account, installing Git, and connecting the tools—will be guided step‑by‑step in Parts 2 and 3. Just bring your laptop (or desktop) and a bit of curiosity!
+
+## How to Navigate
+
+1. Scroll to the bottom and press **Next ›** to move through pages in order.  
+2. Complete the reading quiz before you attempt the workshop; Canvas will enforce the 80 % threshold.  
+3. Assignments live at the end—start them early if you like more repetition.
+
+::: {.callout-warning icon="lock"}
+**Heads‑up:** Parts 3 & 4 stay locked until you pass the quiz in Part 2.
+:::
+
+## Estimated Time Commitment
+| Task | Minutes |
+|------|--------:|
+| Read this introduction (Part 1) | 5 |
+| Tutorial + readings (Part 2) | 90 |
+| 10‑question quiz | 10 |
+| Portfolio workshop (Part 3) | 105 |
+| Assignments (Part 4) | 30 |
+
+**Total ≈ 4 hours. Plan your week accordingly!**
+
+

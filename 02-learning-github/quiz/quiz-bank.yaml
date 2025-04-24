@@ -1,0 +1,217 @@
+questions:
+  - id: q1
+    type: multiple_choice
+    points_possible: 2
+    question_text: |
+      You open a terminal on macOS and type `git --version` but see “command not found.”  
+      According to the lesson, which **single** command below is the *simplest* next step to install Git?
+    answers:
+      - value: a
+        text: xcode-select --install
+        correct: true
+      - value: b
+        text: brew uninstall git
+        correct: false
+      - value: c
+        text: sudo apt install git
+        correct: false
+      - value: d
+        text: git init
+        correct: false
+    feedback_correct: "Correct! macOS can install the Command Line Tools (which include Git) with one click."
+    feedback_incorrect: "Review the macOS install section—Homebrew or xcode-select are your options, not apt."
+
+  - id: q2
+    type: multiple_choice
+    points_possible: 2
+    question_text: |
+      In Git Bash on Windows, which path format will **Git itself** display by default?
+    answers:
+      - value: a
+        text: C:\\Users\\Student\\Projects
+        correct: false
+      - value: b
+        text: C:/Users/Student/Projects
+        correct: true
+      - value: c
+        text: /mnt/c/Users/Student/Projects
+        correct: false
+      - value: d
+        text: ~\\Student\\Projects
+        correct: false
+    feedback_correct: "Exactly—Git Bash echoes paths with forward slashes (`/`)."
+    feedback_incorrect: "Remember: Git Bash speaks the same slash language as macOS/Linux."
+
+  - id: q3
+    type: multiple_choice
+    points_possible: 2
+    question_text: |
+      Which Git command permanently associates your local folder with a GitHub repository
+      you just created on the web?
+    answers:
+      - value: a
+        text: git clone URL
+        correct: false
+      - value: b
+        text: git remote add origin URL
+        correct: true
+      - value: c
+        text: git branch -M main
+        correct: false
+      - value: d
+        text: git pull origin main
+        correct: false
+    feedback_correct: "`git remote add origin` saves the URL so future push/pull know where to go."
+    feedback_incorrect: "Clone copies a repo *down*; remote add links your local repo *up* to GitHub."
+
+  - id: q4
+    type: multiple_choice
+    points_possible: 2
+    question_text: |
+      After committing your first changes, you run `git push origin main`
+      and Git asks for a **password**. What should you paste?
+    answers:
+      - value: a
+        text: Your GitHub account password
+        correct: false
+      - value: b
+        text: Your Personal Access Token (PAT)
+        correct: true
+      - value: c
+        text: The repository URL
+        correct: false
+      - value: d
+        text: Nothing—press Enter to skip
+        correct: false
+    feedback_correct: "GitHub now requires a PAT instead of your account password."
+    feedback_incorrect: "Passwords no longer work; you must generate & paste a PAT."
+
+  - id: q5
+    type: multiple_choice
+    points_possible: 2
+    question_text: |
+      What does `git config --global user.email "you@example.com"` accomplish?
+    answers:
+      - value: a
+        text: Sets the email shown on every commit you make on this computer
+        correct: true
+      - value: b
+        text: Sends your commits by email
+        correct: false
+      - value: c
+        text: Creates a new remote called "email"
+        correct: false
+      - value: d
+        text: Generates a Personal Access Token automatically
+        correct: false
+    feedback_correct: "Right—you’re labeling future snapshots with your email."
+    feedback_incorrect: "This command only sets identity info for commits."
+
+  - id: q6
+    type: multiple_choice
+    points_possible: 2
+    question_text: |
+      In the core workflow, which command moves a file from **working directory**
+      to the **staging area**?
+    answers:
+      - value: a
+        text: git commit
+        correct: false
+      - value: b
+        text: git add
+        correct: true
+      - value: c
+        text: git push
+        correct: false
+      - value: d
+        text: git status
+        correct: false
+    feedback_correct: "`git add` stages changes so the next commit includes them."
+    feedback_incorrect: "Commit records—add stages."
+
+  - id: q7
+    type: multiple_choice
+    points_possible: 2
+    question_text: |
+      On Linux, you see `sudo apt update && sudo apt install git`.  
+      What role does the word **sudo** play?
+    answers:
+      - value: a
+        text: Runs the command as a super-user with admin privileges
+        correct: true
+      - value: b
+        text: Skips password prompts
+        correct: false
+      - value: c
+        text: Creates a Git repository automatically
+        correct: false
+      - value: d
+        text: Deletes Git from the system
+        correct: false
+    feedback_correct: "Super-User DO = temporary admin rights."
+    feedback_incorrect: "`sudo` elevates privileges—it doesn’t skip passwords."
+
+  - id: q8
+    type: multiple_choice
+    points_possible: 2
+    question_text: |
+      Which action should you always perform **first** when collaborating
+      on the same branch with classmates?
+    answers:
+      - value: a
+        text: git push
+        correct: false
+      - value: b
+        text: git pull origin main
+        correct: true
+      - value: c
+        text: git add .
+        correct: false
+      - value: d
+        text: git status
+        correct: false
+    feedback_correct: "Pull before you edit to avoid painful merge conflicts."
+    feedback_incorrect: "Pushing first risks overwriting newer work—pull, then edit."
+
+  - id: q9
+    type: multiple_choice
+    points_possible: 2
+    question_text: |
+      According to the pre-reading, which **GitHub feature**
+      lets someone suggest changes without direct write access to your repo?
+    answers:
+      - value: a
+        text: Issue
+        correct: false
+      - value: b
+        text: Fork
+        correct: false
+      - value: c
+        text: Pull Request
+        correct: true
+      - value: d
+        text: Wiki
+        correct: false
+    feedback_correct: "A pull request bundles proposed commits for review."
+    feedback_incorrect: "Issues describe problems; pull requests include code changes."
+
+  - id: q10
+    type: multiple_choice
+    points_possible: 2
+    question_text: |
+      In Git Bash, which single command returns you to **your home directory** regardless of current location?
+    answers:
+      - value: a
+        text: cd ..
+        correct: false
+      - value: b
+        text: cd /
+        correct: false
+      - value: c
+        text: cd ~
+        correct: true
+      - value: d
+        text: cd -
+        correct: false
+    feedback_correct: "`cd ~` jumps straight to your home folder."
+    feedback_incorrect: "`cd ..` moves up one level only; `cd ~` is the shortcut home."

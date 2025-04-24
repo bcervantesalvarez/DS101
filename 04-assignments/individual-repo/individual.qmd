@@ -1,0 +1,90 @@
+---
+title: "Individual Assignment 1 · Your First GitHub Repository"
+description: |
+  Create a brand-new public repository, add at least one file,
+  and submit a shareable link so the TA can clone, open, and grade it.
+format: html
+---
+
+> **Why this matters**  
+> If you can stand up a clean, clonable repo by yourself, everything else in DS 101 will feel easy.
+
+---
+
+## Objectives
+
+By completing this assignment you will:
+
+1. Practice the full **Change → Stage → Commit → Push** cycle on your own.  
+2. Confirm your Git installation, global config, and PAT all work.  
+3. Produce a URL that anyone (including future employers) can visit and clone.
+
+---
+
+## Task Checklist
+
+1. **Sign in to GitHub** with the personal account you created in Part 2.  
+2. **Create a new repository** named exactly  
+   ```
+   ds101-first-repo
+   ```  
+   * Settings: Public ✓   “Add a README” ✓   License — none required.  
+3. **Clone** the repo to your computer (GitHub Desktop, RStudio, or terminal).  
+4. **Add a file** of your choice, e.g.  
+   * `hello.md` with a two-sentence greeting **or**  
+   * `code.R` that prints `"Hello DS 101!"`.  
+5. **Commit** your changes with a meaningful message (e.g., `Add hello.md`).  
+6. **Push** to GitHub.  
+7. **Copy the HTTPS link** (you’ll submit this).  
+   Example:  
+   ```
+   https://github.com/jane-doe/ds101-first-repo
+   ```
+
+---
+
+## What to Submit
+
+* **One URL** to your repo, pasted into the Canvas → Assignment submission box.  
+  *No ZIP uploads, no screenshots.*
+
+---
+
+## Grading Rubric (40 pts)
+
+| Criterion | Excellent (Full pts) | Points |
+|-----------|---------------------|-------:|
+| **Link Provided** | Valid HTTPS URL pasted; opens in TA’s browser. | 5 |
+| **Repository Public** | TA can view without extra permissions. | 5 |
+| **Clonable** | `git clone <URL>` works without errors. | 15 |
+| **File Present** | At least one non-empty file pushed (README counts if edited). | 10 |
+| **Commit Message** | Descriptive (not “update” or “asgn1”). | 5 |
+
+> **Total: 40 points**  
+> A repo that fails to clone automatically earns **0** on “Clonable” plus deductions on any other missing criteria.
+
+---
+
+## Tips & Troubleshooting
+
+* **Push vs. Commit** — Commit saves *locally*; Push uploads. Forgetting to push is the #1 mistake.
+* **Empty repos** won’t clone via HTTPS; always click **“Add a README”** when creating.
+* PAT glitches? Run  
+  ```bash
+  git config --global credential.helper store
+  ```  
+  then push again and paste your token once.
+* Still stuck? Post a screenshot in **#git-help**.
+
+---
+
+### Due Date 📅  
+
+*Sunday 11:59 PM (Pacific)* — the end of Week X.
+
+Late submissions follow the standard course policy (-10 % per day, max 3 days).
+
+Submissions after 3 days will be marked as 0.
+
+Good luck—your first repo is a major milestone! 🚀
+

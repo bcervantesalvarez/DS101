@@ -60,7 +60,7 @@ ds101-github-module/
 ## 🚀 Quick Start
 ```bash
 # Clone the teaching materials
-git clone https://github.com/your-org/ds101-github-module.git
+git clone https://github.com/bcervantesalvarez/ds101-github-module.git
 cd ds101-github-module
 
 # Preview any .qmd in RStudio, VS Code, or terminal

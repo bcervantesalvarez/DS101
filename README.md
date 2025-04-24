@@ -16,7 +16,7 @@ This repository houses a complete, four-part Canvas/Quarto package that
 |------|------------------------|--------|
 | **1 · Introduction** | What GitHub is & why we care | `01-introduction/` |
 | **2 · Learning Module** | Deep-dive tutorial · 2 readings · 10-question quiz | `02-learning-github/` |
-| **3 · Application** | Workshop: build a Quarto portfolio (pre-workshop setup included) | `03-application-portfolio/` |
+| **3 · Application** | Workshop: build a Quarto portfolio (setup included) | `03-application-portfolio/` |
 | **4 · Assignments** | • Individual repo • Team workflow • *Extra credit*: personal site | `04-assignments/` |
 
 > **Sequential requirement**: Readings → Quiz ≥ 80 % → Workshop → Assignments.
@@ -38,7 +38,7 @@ ds101-github-module/
 │     ├─ quiz-bank.yaml
 │     └─ quiz-instructions.md
 ├─ 03-application-portfolio/
-│  ├─ pre-workshop-setup-guide.qmd
+│  ├─ setup-guide.qmd
 │  ├─ build-portfolio.qmd
 │  └─ sample-site/        # demo Quarto portfolio
 ├─ 04-assignments/
